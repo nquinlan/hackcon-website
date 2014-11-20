@@ -1,0 +1,198 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+a, a:hover {
+  color: #ffea01;
+}
+
+.opener, .about, .schedule, .speakers, .sponsors {
+  position: relative;
+}
+
+.more-down {
+  background-color: rgba(255,255,255,0.3);
+  padding: 0.5em;
+  border-radius: 50%;
+  font-size: 1.5em;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0,0,0,1);
+  border: none;
+}
+
+.navbar .logo {
+  height: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffea01;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 15px 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background: none;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    background: rgba(0,0,0,0.7);
+  }
+
+  .navbar .navbar-header {
+    position: absolute;
+  }
+
+  .navbar .navbar-nav {
+    float: none;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav li {
+    display: inline-block;
+    float: none;
+  }
+}
+
+/* Opener */
+
+.opener {
+  min-height: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)), url(/assets/img/subways.png) center center fixed;
+}
+
+.opener .continue {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.opener .details {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-align: center;
+  top: 45%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.opener .details p {
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+.opener .details p.meta {
+  padding-top: 24px;
+  text-transform: uppercase;
+}
+
+.opener .details p.description {
+  padding-top: 48px;
+}
+
+.opener .details span {
+  padding: 0 7px;
+}
+
+.opener .details img {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.opener .cta {
+  padding-top: 35px;
+}
+
+.opener .cta .btn {
+  border: none;
+  font-weight: bold;
+  color: #333333;
+  margin: 10px;
+}
+
+.opener .cta .btn-success {
+  background: #ffea01;
+}
+
+.opener .cta .btn-default {
+  background: #ffffff;
+}
+
+/* About */
+
+.about a {
+  color: #005bae;
+}
+
+.about .extra-spacing {
+  padding-top: 30px;
+}
+
+.about .intro {
+  padding-bottom: 20px;
+}
+
+.about .reasons .reason {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about .reasons h3 {
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* Speakers */
+
+.speakers {
+  background: #333333;
+  min-height: 100%;
+}
+
+
+.faqs {
+  padding-bottom: 30px;
+}
+
+.faq h4 {
+  font-weight: bold;
+}
+
+.faq img {
+  padding-top: 20px;
+  width: 100%;
+}
