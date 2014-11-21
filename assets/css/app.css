@@ -176,13 +176,7 @@ a, a:hover {
   }
 }
 
-/* Speakers */
-
-.speakers {
-  background: #333333;
-  min-height: 100%;
-}
-
+/* FAQ */
 
 .faqs {
   padding-bottom: 30px;
@@ -195,4 +189,15 @@ a, a:hover {
 .faq img {
   padding-top: 20px;
   width: 100%;
+  max-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .faq {
+    text-align: center;
+  }
+
+  .faq img {
+    margin-bottom: 20px;
+  }
 }
