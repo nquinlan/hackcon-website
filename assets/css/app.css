@@ -97,10 +97,6 @@ a, a:hover {
   padding-right: 10px;
   position: relative;
   text-align: center;
-  top: 45%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
 }
 
 .opener .details p {
@@ -144,6 +140,29 @@ a, a:hover {
 
 .opener .cta .btn-default {
   background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .opener {
+    padding-top: 60px;
+  }
+
+  .opener .continue {
+    bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .opener .details {
+    top: 45%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+  }
+
+  .opener .continue {
+    bottom: 10%;
+  }
 }
 
 /* About */
