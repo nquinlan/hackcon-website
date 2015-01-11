@@ -188,6 +188,11 @@ a, a:hover {
   margin-bottom: 20px;
 }
 
+.about .sponsor img {
+  width: 262px;
+  margin-bottom: 20px;
+}
+
 
 @media (min-width: 768px) {
   .about {
