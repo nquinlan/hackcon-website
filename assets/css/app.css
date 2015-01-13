@@ -188,12 +188,6 @@ a, a:hover {
   margin-bottom: 20px;
 }
 
-.about .sponsor img {
-  width: 262px;
-  margin-bottom: 20px;
-}
-
-
 @media (min-width: 768px) {
   .about {
     padding-top: 100px;
@@ -225,4 +219,12 @@ a, a:hover {
   .faq img {
     margin-bottom: 20px;
   }
+}
+
+/* Sponsors */
+
+.sponsors img {
+  margin: 20px 0 40px;
+  max-height: 60px;
+  max-width: 100%;
 }
