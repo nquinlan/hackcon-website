@@ -263,3 +263,28 @@ a, a:hover {
     font-size: 16px;
   }
 }
+
+/* Schedule */
+
+.schedule {
+  background-color: #ffea01;
+}
+
+.schedule .breakdown h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.schedule .breakdown ul li {
+  padding: 3px 0 0;
+}
+
+.schedule .breakdown ul strong {
+  min-width: 70px;
+  display: inline-block;
+}
+
+.schedule .disclaimer {
+  padding: 40px 0 20px;
+}
