@@ -276,6 +276,9 @@ a, a:hover {
   margin-bottom: 20px;
 }
 
+.schedule .breakdown ul {
+  margin-bottom: 40px;
+}
 .schedule .breakdown ul li {
   padding: 3px 0 0;
 }
@@ -286,5 +289,5 @@ a, a:hover {
 }
 
 .schedule .disclaimer {
-  padding: 40px 0 20px;
+  padding: 0px 0 20px;
 }
